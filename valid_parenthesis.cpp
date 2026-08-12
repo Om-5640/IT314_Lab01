@@ -26,7 +26,7 @@ bool isValid(string s) {
         }
     }
 
-    return true;
+    return st.empty(); // Check if any unmatched opening brackets are left in the stack
 }
 
 int main() {
